@@ -1,0 +1,22 @@
+@media (max-width:768px) {
+    .swiper-button-next, .swiper-button-prev{
+        display: none;
+    }
+
+    .card{
+        display: flex;
+        width: fit-content;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 21rem;
+        margin-top: 4rem;
+    }
+
+    /* .section{
+        display: flex;
+        height: 150px;
+        width: 768px;
+        align-items: center;
+        position: relative;
+      } */
+}
